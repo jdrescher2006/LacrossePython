@@ -16,7 +16,8 @@ Should also work with:<br>
 This projekt is based on following information:<br>
 https://www.f6fbb.org/domo/sensors/tx3_th.php<br>
 https://github.com/merbanan/rtl_433/blob/master/src/devices/lacrosse.c<br>
-http://culfw.de/commandref.html
+http://culfw.de/commandref.html<br>
+https://github.com/cgommel/fhem/blob/master/fhem/FHEM/14_CUL_TX.pm
 
 <h3>Installation (for Linux e.g. Raspberry OS)</h3>
 - download the script file and make it executable: chmod +x lacrosse.py<br>
