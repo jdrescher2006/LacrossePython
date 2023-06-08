@@ -10,7 +10,7 @@ from datetime import datetime
 MQTT_SERVER = "192.168.0.139"
 MQTT_PATH = "CUL433"
 MQTT_PORT = 1883
-MQTT_AUTH = {'username':"mqttuser", 'password':"pydj1234,."}
+MQTT_AUTH = {'username':"mqttuser", 'password':"xxxx"}
 
 culVersion = None
 adressCode = 0
