@@ -15,6 +15,6 @@ https://github.com/merbanan/rtl_433/blob/master/src/devices/lacrosse.c<br>
 http://culfw.de/commandref.html
 
 <h3>Installation (for Linux e.g. Raspberry OS)</h3>
-- download the script file and make it executable: chmod +x lacrosse.py
-- install the MQTT python library: pip3 install paho-mqtt
+- download the script file and make it executable: chmod +x lacrosse.py<br>
+- install the MQTT python library: pip3 install paho-mqtt<br>
 - execute the script with: python3 lacrosse.py &
