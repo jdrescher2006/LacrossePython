@@ -8,7 +8,7 @@ from datetime import datetime
 
 #MQTT Config
 MQTT_SERVER = "192.168.0.139"
-MQTT_PATH = "CUL433"
+MQTT_PATH = "Sensor_"
 MQTT_PORT = 1883
 MQTT_AUTH = {'username':"mqttuser", 'password':"xxxx"}
 
@@ -92,8 +92,8 @@ def writeMQTT():
     json_string = json.dumps(body)
     #print(json_string)
 
-    for key, value in body.items():
-        topic = f"Aussentemperatur/{key}"
+    for key, value in body.items():        
+        topic = MQTT_PATH + f"{adressCode}/{key}"
         
         try:
             publish.single(topic, value, hostname=MQTT_SERVER, port=MQTT_PORT, auth=MQTT_AUTH)  
